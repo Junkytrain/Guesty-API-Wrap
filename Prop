@@ -1,0 +1,44 @@
+{
+    "property": {
+        "id": "123456789",
+        "name": "Cozy Vacation Home",
+        "location": "Beachside",
+        "description": "A beautiful vacation home just steps away from the beach. Perfect for a relaxing getaway.",
+        "amenities": ["Free Wi-Fi", "Swimming Pool", "Private Parking", "BBQ Area"],
+        "price_per_night": 150,
+        "max_guests": 6,
+        "availability": {
+            "start_date": "2023-06-01",
+            "end_date": "2023-06-30"
+        },
+        "bookings": [
+            {
+                "id": "booking123",
+                "start_date": "2023-06-05",
+                "end_date": "2023-06-10",
+                "guest_name": "John Doe",
+                "guest_email": "johndoe@example.com",
+                "guest_phone": "+1 123-456-7890",
+                "status": "confirmed"
+            },
+            {
+                "id": "booking456",
+                "start_date": "2023-06-15",
+                "end_date": "2023-06-20",
+                "guest_name": "Jane Smith",
+                "guest_email": "janesmith@example.com",
+                "guest_phone": "+1 987-654-3210",
+                "status": "confirmed"
+            },
+            {
+                "id": "booking789",
+                "start_date": "2023-07-01",
+                "end_date": "2023-07-07",
+                "guest_name": "David Johnson",
+                "guest_email": "davidjohnson@example.com",
+                "guest_phone": "+1 456-789-0123",
+                "status": "pending"
+            }
+        ]
+    }
+}
